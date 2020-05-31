@@ -27,9 +27,8 @@ public class Sort extends AppCompatActivity implements AdapterView.OnItemClickLi
     HelperDB hlp;
     Cursor crsr;
 
-    ArrayList<String> tblRec, tblFiled;
     ArrayList<String> tbl = new ArrayList<>();
-    ArrayAdapter<String> adpTables, adpFields, adpData;
+    ArrayAdapter<String> adpData;
     int table;
     String[] tables, fields;
     String tbl2sort;
